@@ -1,0 +1,65 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f5f5f5;
+}
+header {
+background-color: #668f6e;
+color: white;
+padding: 1em;
+text-align: center;
+}
+nav ul {
+list-style: none;
+padding: 0;
+}
+nav li {
+display: inline;
+margin: 0 10px;
+}
+main {
+padding: 20px;
+}
+
+.paquetes-horizontal {
+  display: flex;
+  justify-content: center;     /* Centra horizontalmente */
+  gap: 2em;                    /* Espacio entre las tarjetas */
+  flex-wrap: wrap;             /* Permite que bajen en móviles */
+  margin-top: 1.5em;
+}
+
+.paquete {
+  width: 280px;
+  background-color:#83ad8b;
+  padding: 1.2em;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.paquete:hover {
+  transform: translateY(-5px);
+}
+
+.paquete img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1em;
+}
+
+.boton-vermas {
+  display: inline-block;
+  background-color: #668f6e;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.boton-vermas:hover {
+  background-color: #585555;
+}
